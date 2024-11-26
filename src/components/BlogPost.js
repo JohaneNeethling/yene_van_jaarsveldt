@@ -35,17 +35,6 @@ const BlogPost = ({ posts }) => {
       >
         {post.content} {/* Display the content of the post */}
       </motion.p>
-
-      {/* Back button with hover effects and animations */}
-      <motion.a
-        href="/blog" // Link to go back to the blog list
-        className="inline-block mt-6 sm:mt-8 sm:px-7 sm:py-3 px-4 py-2 bg-gradient-to-r from-red-400 to-red-800 text-white text-base sm:text-lg font-bold rounded-full shadow-lg transform transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-2xl hover:rotate-6 hover:opacity-90"
-        initial={{ opacity: 0 }} // Initially hidden
-        animate={{ opacity: 1 }} // Fade in to full opacity
-        transition={{ duration: 1, delay: 0.7 }} // Animation delay and duration
-      >
-        Back {/* Button text */}
-      </motion.a>
     </section>
   );
 };
