@@ -1,0 +1,23 @@
+.double-border {
+  border-left: 10px solid #766961;
+  border-right: 10px solid #766961;
+  position: relative;
+}
+
+.double-border::before,
+.double-border::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 10px;
+  background-color: #766961;
+}
+
+.double-border::before {
+  left: 0;
+}
+
+.double-border::after {
+  right: 0;
+}
