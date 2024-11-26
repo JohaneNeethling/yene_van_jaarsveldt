@@ -21,7 +21,7 @@ const Blog = () => {
     <section className="py-20 px-4 bg-zinc-900">
       {/* Header section with a motion effect */}
       <motion.h2
-        className="text-5xl text-white font-bold mb-6 py-8 tracking-widest font-serif pt-10"
+        className="text-5xl text-white font-bold mb-6 py-8 tracking-widest font-serif mt-32"
         initial={{ opacity: 0, y: 50 }} // Initial state for opacity and position (y-axis)
         whileInView={{ opacity: 1, y: 0 }} // Change to these values when the element comes into view
         transition={{ duration: 0.6 }} // Smooth transition for the animation

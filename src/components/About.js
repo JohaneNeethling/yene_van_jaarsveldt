@@ -15,7 +15,7 @@ const About = () => {
           <div className="w-full md:w-1/2 md:mr-10">
             {/* Animated heading with fade-in effect */}
             <motion.h2
-              className="text-4xl sm:text-5xl font-black mb-4 mt-6 text-light-brown font-serif"
+              className="text-4xl sm:text-5xl font-black mb-4 text-light-brown font-serif mt-20"
               initial={{ opacity: 0 }} // Initial opacity is 0 (invisible)
               animate={{ opacity: 1 }} // Animate to opacity 1 (fully visible)
               transition={{ duration: 1 }} // Animation duration is 1 second

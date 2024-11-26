@@ -6,7 +6,7 @@ const CheckOutPortfolio = () => {
   return (
     <section className="px-4 bg-zinc-900 text-white text-center pb-20 font-serif">
       {/* Main container with flex layout */}
-      <div className="flex flex-col lg:flex-row items-center justify-center">
+      <div className="flex flex-col lg:flex-row items-center justify-center pr-10">
         {/* Left side content: title, description, and call-to-action */}
         <div className="lg:w-1/2 text-center lg:text-left mb-8 lg:mb-0">
           {/* Title with animation on load */}

@@ -305,7 +305,7 @@ const Portfolio = () => {
     <section className="bg-zinc-900 text-white py-20 px-4" id="portfolio">
       {/* Portfolio header with animation */}
       <motion.h2
-        className="text-5xl text-white font-bold mb-6 py-8 tracking-widest font-serif pt-10"
+        className="text-5xl text-white font-bold mb-6 py-8 tracking-widest font-serif mt-32"
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
